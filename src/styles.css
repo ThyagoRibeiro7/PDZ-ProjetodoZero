@@ -70,7 +70,7 @@
 .welcome_text{
     padding-left: 5rem;
     padding-top: 5rem;
-    color: #bababa;
+    color: var(--font-color);
     font-size: 1.2rem;
 }
 
@@ -79,5 +79,6 @@
 }
 
 .vitrine_container .cards_items{
-    width: 50em;
+    max-width: 30em;
+    max-height: 25em;
 }

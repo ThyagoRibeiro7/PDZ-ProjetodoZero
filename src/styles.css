@@ -1,0 +1,84 @@
+/* NavBar Section Start */
+
+.nav_bar{
+    /* background-color: #121212; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 2rem;
+    min-width: 100%;
+}
+
+.nav_bar img{
+    display: block;
+    margin: auto;
+    min-height: 30px;
+    max-height: 30px;
+    padding: 0.5;
+}
+
+.nav_image_container{
+    margin-right: 1rem;
+}
+
+.nav_links{
+    margin-right: 85em;
+}
+
+.nav_links a{
+    padding: 0.5em;
+    color: #bababa;
+    font-size: .95rem;
+    font-weight: 100;
+}
+
+.nav_options a:hover{
+    color: var(--main-color);
+}
+
+.nav_user{
+    padding: 0.75rem;
+    width: 80px;
+    background: #1e1e1e;
+    border-radius: 50px;
+    box-shadow: 0 1px 2px #212123;
+}
+
+.nav_user img{
+    position: relative;
+    right: 10px;
+    border-radius: 20px;
+    background-color: #484848;
+}
+
+.banner_container img{
+    max-width: 100%;
+}
+
+/* NavBar Section End */
+
+.mbanner_gradient{
+    z-index: 4;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 6rem;
+    background: linear-gradient(0deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+}
+
+.welcome_text{
+    padding-left: 5rem;
+    padding-top: 5rem;
+    color: #bababa;
+    font-size: 1.2rem;
+}
+
+.vitrine_container{
+    display: flex;
+}
+
+.vitrine_container > .cards_items{
+    width: 50em;
+    height: 20em;
+}

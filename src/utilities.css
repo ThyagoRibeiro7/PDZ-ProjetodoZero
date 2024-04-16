@@ -1,0 +1,13 @@
+:root{
+    --bg-color: #1e1e1e;
+    --main-color: #8a1a12;  
+}
+
+body{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background: var(--bg-color);
+    text-align: left;
+}

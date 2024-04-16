@@ -1,13 +1,20 @@
 /* NavBar Section Start */
 
 .nav_bar{
-    /* background-color: #121212; */
-    display: flex;
+    /* padding: 1em; */
+    max-width: 100%;
+    background-color: var(--mainbg-color);
+}
+
+.nav_content{
+    display:flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
-    padding: 2rem;
-    min-width: 100%;
+    padding: 1rem 2.5rem;
+}
+
+.nav_icon{
+    padding-right: 4em;
 }
 
 .nav_bar img{
@@ -15,22 +22,20 @@
     margin: auto;
     min-height: 30px;
     max-height: 30px;
-    padding: 0.5;
-}
-
-.nav_image_container{
-    margin-right: 1rem;
 }
 
 .nav_links{
-    margin-right: 85em;
+    margin-right: 80em;
 }
 
 .nav_links a{
-    padding: 0.5em;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    /* margin-right: 2em; */
     color: var(--font-color);
     font-size: .95rem;
     font-weight: 100;
+    line-height: 40px;
 }
 
 .nav_options a:hover{
@@ -40,7 +45,7 @@
 .nav_user{
     padding: 0.75rem;
     width: 80px;
-    background: #1e1e1e;
+    background: #fff;
     border-radius: 50px;
     box-shadow: 0 1px 2px #212123;
 }
@@ -72,10 +77,6 @@
     padding-top: 5rem;
     color: var(--font-color);
     font-size: 1.2rem;
-}
-
-.vitrine_container{
-    display: flex;
 }
 
 .vitrine_container .cards_items{

@@ -1,8 +1,9 @@
 :root{
-    --mainbg-color: #1e1e1e;
+    --mainbg-color: #121212;
     --dark-gray: #484848;
     --red-color: #8a1a12;
     --font-color: #bababa;  
+    --white-color: #fff;
 }
 
 body{
@@ -10,6 +11,6 @@ body{
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    background: var(--bg-color);
+    background: var(--mainbg-color);
     text-align: left;
 }

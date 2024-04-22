@@ -73,19 +73,8 @@
     background: linear-gradient(0deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
 }
 
-.welcome_text, .destaque_text{
-    padding-left: 48px;
-}
-
-.vitrine{
-    max-width: 100%;
-    display: flex;
-    gap: 0.25rem;
-    padding: 20px 48px 0 48px;
-    box-sizing: content-box;
-}
-
 .cards_items{
+    max-width: 50%;
     margin-right: 10px;
     padding-left: 5px;
 }
@@ -98,17 +87,14 @@
     box-shadow: 0 10px 20px rgba(66, 66, 66, 0.19), 0 6px 6px rgba(66, 66, 66, 0.19);
 }
 
-.welcome_text, .destaque_text{
-    padding-top: 24px;
-    border: none;
-    margin: 0;
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: var(--white-color);
+.vitrine_container_destaques{
+    max-width: 50%;
 }
 
-.destaque_text{
-    margin-top: 8px;
+.cards_items_destaques{
+    max-width: 30%;
+    margin-right: 10px;
+    padding-left: 5px;
 }
 
 .vitrine_container_destaques img{
@@ -119,4 +105,38 @@
     box-shadow: 0 10px 20px rgba(66, 66, 66, 0.19), 0 6px 6px rgba(66, 66, 66, 0.19);
 }
 
+.vitrine_leitura{
+    max-width: 50%;
+}
+
+.cards_items_leitura{
+    max-width: 30%;
+    margin-right: 10px;
+    padding-left: 5px;
+}
+
+.vitrine_leitura img{
+    max-width: 100%;
+    z-index: 1;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 10px 20px rgba(66, 66, 66, 0.19), 0 6px 6px rgba(66, 66, 66, 0.19);
+}
+
 /* Main Section End */
+
+/* Footer Start */
+
+.fcontent{
+    margin: 2rem 0;
+    padding: 2rem 3rem;
+    display: flex;
+    border-top: 1px solid #363739;
+}
+
+.fcopyright{
+    color: var(--font-color);
+    font-size: .8rem;
+}
+
+/* Footer End */

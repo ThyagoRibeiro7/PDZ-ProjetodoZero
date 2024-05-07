@@ -1,0 +1,125 @@
+.nav_bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+}
+
+.nav_content{
+    display:flex;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    padding: 1rem 2.5rem;
+}
+
+.nav_icon{
+    padding-right: 4em;
+}
+
+.nav_bar img{
+    display: block;
+    margin: auto;
+    min-height: 30px;
+    max-height: 30px;
+}
+
+.nav_links{
+    margin-right: auto;
+}
+
+.nav_links a{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    color: var(--font-color);
+    font-size: .95rem;
+    font-weight: 100;
+    line-height: 40px;
+    transition: color 0.2s;
+}
+
+.nav_links a:hover{
+    color: var(--red-color);
+}
+
+.right_navbar .right_nav_content{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    max-width: 100%;
+    width: 100%;
+}
+
+.nav_user{
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25rem 1rem 0.25rem 0.25rem;
+    margin-left: 1rem;
+    width: 90px;
+    background: #1e1e1e;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 1px 2px #212123;
+}
+
+.nav_user > i{
+    font-style: normal;
+    font-weight: 900;
+    color: #c3c3c3;
+    margin-left: 0.5rem;
+    margin-right: 0 !important;
+    font-family: "Font Awesome 5 free";
+}
+
+.nav_user img{
+    max-height: 100%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #484c4e;
+}
+
+.lupa i{
+    font-style: normal;
+    color: #fff;
+}
+
+.bell i{
+    font-style: normal;
+}
+
+.hamburguer_toggler{
+    cursor: pointer;
+    background-color: transparent;
+    font-family: "Font Awesome 5 free";
+    font-weight: 900;
+    display: none;
+}
+
+.hamburguer_toggler i{
+    font-style: normal;
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: #fff;
+    font-weight: 900;
+}
+
+.hamburguer_menu_active{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    width: 100%;
+    background-color: #1e1e1e;
+    gap: 0 28px;
+    display: none;
+}
+
+.hamburguer_menu_active a{
+    color: var(--font-color);
+    font-size: .95rem;
+    line-height: 40px;
+    padding: 0.5rem 1rem;
+}

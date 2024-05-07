@@ -1,0 +1,11 @@
+.fcontent{
+    margin: 2rem 0;
+    padding: 2rem 3rem;
+    display: flex;
+    border-top: 1px solid #363739;
+}
+
+.fcopyright{
+    color: var(--font-color);
+    font-size: .8rem;
+}

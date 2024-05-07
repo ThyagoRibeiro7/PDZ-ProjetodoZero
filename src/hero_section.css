@@ -1,0 +1,70 @@
+.banner_container img{
+    max-width: 100%;
+}
+
+.banner_container::after{
+    content: '';
+    position: absolute;
+    z-index: 4;
+    bottom: 179px;
+    left: 0px;
+    right: 0px;
+    height: 6rem;
+    background: linear-gradient(0deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+}
+
+.cards_items{
+    width: 22%;
+    max-width: 280px;
+    padding-left: 5px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.vitrine_container img{
+    max-width: 100%;
+    z-index: 1;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 10px 20px rgba(66, 66, 66, 0.19), 0 6px 6px rgba(66, 66, 66, 0.19);
+}
+
+.vitrine_container_destaques{
+    max-width: 100%;
+}
+
+.cards_items_destaques{
+    width: 22%;
+    max-width: 280px;
+    padding-left: 5px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.vitrine_container_destaques img{
+    width: 100%;
+    z-index: 1;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 10px 20px rgba(66, 66, 66, 0.19), 0 6px 6px rgba(66, 66, 66, 0.19);
+}
+
+.vitrine_leitura{
+    max-width: 100%;
+}
+
+.cards_items_leitura{
+    width: 22%;
+    max-width: 280px;
+    padding-left: 5px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.vitrine_leitura img{
+    max-width: 100%;
+    z-index: 1;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 10px 20px rgba(66, 66, 66, 0.19), 0 6px 6px rgba(66, 66, 66, 0.19);
+}

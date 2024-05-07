@@ -5,9 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PDZ | Projeto do Zero</title>
-    <link rel="stylesheet" href="/src/utilities.css">
-    <link rel="stylesheet" href="/src/styles.css">
-    <link rel="stylesheet" href="/src/reset.css">
+    <link rel="stylesheet" href="./src/styles.css">
+    <link rel="stylesheet" href="./src/header.css">
+    <link rel="stylesheet" href="./src/hero_section.css">
+    <link rel="stylesheet" href="./src/footer.css">
+    <link rel="stylesheet" href="./src/mediaqueries.css">
+    <link rel="stylesheet" href="./src/utilities.css">
+    <link rel="stylesheet" href="./src/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -29,7 +33,7 @@
             <div class="right_navbar">
                 <div class="right_nav_content">
                     <span class="lupa icon">
-                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <i class="fa-solid fa-magnifying-glass-minus"></i>
                     </span>
                     <span class="bell icon">
                         <i class="fa-regular fa-bell"></i>
@@ -38,8 +42,14 @@
                         <a href="#"><img src="./Imagens/User.png"></a>
                         <i class="fa-solid fa-angle-down"></i>
                     </div>
+                    <button class="hamburguer_toggler"><i class="fa-regular fa-bars"></i></button>
                 </div>
             </div>
+        </div>
+        <div class="hamburguer_menu_active">
+            <a href="#">HOME</a>
+            <a href="#">TELEGRAM</a>
+            <a href="#">SUPORTE</a>
         </div>
     </nav>
     <main>

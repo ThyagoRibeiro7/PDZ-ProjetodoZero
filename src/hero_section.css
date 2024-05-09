@@ -13,7 +13,14 @@
     background: linear-gradient(0deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
 }
 
+.swipper_wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
 .cards_items{
+    flex-shrink: 0;
     width: 22%;
     max-width: 280px;
     padding-left: 5px;
@@ -27,10 +34,6 @@
     cursor: pointer;
     border-radius: 4px;
     box-shadow: 0 10px 20px rgba(66, 66, 66, 0.19), 0 6px 6px rgba(66, 66, 66, 0.19);
-}
-
-.vitrine_container_destaques{
-    max-width: 100%;
 }
 
 .cards_items_destaques{

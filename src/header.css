@@ -34,7 +34,7 @@
 .nav_links a{
     display: inline-block;
     padding: 0.5rem 1rem;
-    color: var(--font-color);
+    color: var(--main-font-color);
     font-size: .95rem;
     font-weight: 100;
     line-height: 40px;
@@ -42,7 +42,7 @@
 }
 
 .nav_links a:hover{
-    color: var(--red-color);
+    color: var(--main-red-color);
 }
 
 .right_navbar .right_nav_content{

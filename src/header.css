@@ -60,10 +60,48 @@
     padding: 0.25rem 1rem 0.25rem 0.25rem;
     margin-left: 1rem;
     width: 90px;
-    background: #1e1e1e;
+    background-color: #1e1e1e;
     border-radius: 50px;
     cursor: pointer;
     box-shadow: 0 1px 2px #212123;
+}
+
+.nav_user_menu{
+    position: absolute;
+    top: 80%;
+    left: auto;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    background-color: #1e1e1e;
+    text-align: left;  
+    border-radius: 10px;
+}
+
+
+.nav_user_menu .nav_user_menu_active li{
+    color: #c3c3c3;
+    padding: .5rem 1rem;
+    line-height: 1.5rem;
+    font-size: .9rem;
+    transition: 0.3s;
+}
+
+.nav_user_menu .nav_user_menu_active li a{
+    color: var(--main-font-color)
+}
+
+.nav_user_menu_active li:last-child{
+    border-top: 1px solid #5a5a5a;
+}
+
+.nav_user_menu_active li:hover{
+    color: var(--main-red-color)
 }
 
 .nav_user > i{
@@ -119,8 +157,12 @@
 }
 
 .hamburguer_menu_active a{
-    color: var(--font-color);
+    color: var(--main-font-color);
     font-size: .95rem;
     line-height: 40px;
     padding: 0.5rem 1rem;
+}
+
+.hamburguer_menu_active a:hover{
+    color: var(--main-red-color)
 }

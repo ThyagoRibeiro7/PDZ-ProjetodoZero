@@ -1,10 +1,10 @@
 /* Variables */
 :root{
     --mainbg-color: #121212;
-    --dark-gray: #484848;
-    --red-color: #8a1a12;
-    --font-color: #bababa;  
-    --white-color: #fff;
+    --soft-gray: #484848;
+    --main-red-color: #8a1a12;
+    --main-font-color: #bababa;  
+    --description-text-color: #fff;
 }
 /* Variables */
 
@@ -23,6 +23,7 @@ body{
 
 
 /* Utility Classes */
+
 .vitrine{
     max-width: 100%;
     max-height: 100%;
@@ -40,7 +41,7 @@ body{
     margin: 0;
     font-size: 1.2rem;
     font-weight: bold;
-    color: var(--white-color);
+    color: var(--description-text-color);
 }
 
 .icon{

@@ -11,30 +11,63 @@
         display: flex;
         padding: 0.25rem 0.75rem
     }
+
+    .cards_responsive{
+        padding-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 777px){
+    .vitrine_responsive{
+        padding: 20px 48px 0 15px;
+    }
+
+    .description_text_responsive{
+        padding-left: 15px;
+    }
+
+    .cards_responsive{
+        padding-left: 5px;
+        margin-right: 5px;
+        max-width: 100%;
+        width: 30%;
+    }
 }
 
 @media (max-width: 767.98px){
+    .vitrine_responsive{
+        padding: 20px 48px 0 15px;
+    }
+
+    .description_text_responsive{
+        padding-left: 15px;
+    }
+
     .cards_items{
         padding-left: 5px;
         margin-right: 5px;
-        margin-bottom: 20px;
         max-width: 100%;
-        width: 45%
     }
 
     .cards_items_destaques{
         padding-left: 5px;
         margin-right: 5px;
-        margin-bottom: 20px;
-        max-width: 100%;;
-        width: 45%
+        max-width: 100%;
     }
 
     .cards_items_leitura{
         padding-left: 5px;
         margin-right: 5px;
-        margin-bottom: 20px;
         max-width: 100%;
-        width: 45%
     }
+}
+
+@media (max-width: 600px){
+    .cards_responsive{
+        width: 50%;
+    }
+}
+
+@media (max-width: 320px){
 }

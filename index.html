@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="./src/header.css">
     <link rel="stylesheet" href="./src/hero_section.css">
     <link rel="stylesheet" href="./src/footer.css">
-    <link rel="stylesheet" href="./src/mediaqueries.css">
     <link rel="stylesheet" href="./src/utilities.css">
+    <link rel="stylesheet" href="./src/mediaqueries.css">
     <link rel="stylesheet" href="./src/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
@@ -54,59 +54,62 @@
     </nav>
     <main>
         <div class="banner_container">
-            <img src="./Imagens/MainBanner.jpg">
+                <picture>
+                    <source media="(max-width:600px)" srcset="./Imagens/MobileBannerImage.jpeg"/>
+                    <img src="./Imagens/MainBanner.jpg">
+                </picture>
         </div>
         <main>
             <div class="swipper_wrapper">
-                <div class="descripton_text">
+                <div class="descripton_text description_text_responsive">
                     <p>Comunidade Projeto do Zero</p>
                 </div>
-                <div class="vitrine_container vitrine">
-                    <div class="cards_items hover_up">
+                <div class="vitrine_container vitrine vitrine_responsive">
+                    <div class="cards_items cards_responsive hover_up">
                         <img src="/Imagens/StartH.png">
                     </div>
-                    <div class="cards_items hover_up">
+                    <div class="cards_items cards_responsive hover_up">
                         <img src="/Imagens/Introduction.png">
                     </div>
-                    <div class="cards_items hover_up">
+                    <div class="cards_items cards_responsive hover_up">
                         <img src="/Imagens/TimeLine.png">
                     </div>
-                    <div class="cards_items hover_up">
+                    <div class="cards_items cards_responsive hover_up">
                         <img src="/Imagens/DicFil.png">
                     </div>
-                    <div class="cards_items hover_up">
+                    <div class="cards_items cards_responsive hover_up">
                         <img src="/Imagens/Thinkers.png">
                     </div>
-                    <div class="cards_items hover_up">
+                    <div class="cards_items cards_responsive hover_up">
                         <img src="/Imagens/Comunity.png">
                     </div>
                 </div>
             </div>
             <div class="swipper_wrapper_destaques">
-                <div class="descripton_text">
+                <div class="descripton_text description_text_responsive">
                     <p>Destaques</p>
                 </div>
-                <div class="vitrine_container_destaques vitrine">
-                    <div class="cards_items_destaques hover_up">
+                <div class="vitrine_container_destaques vitrine vitrine_responsive">
+                    <div class="cards_items_destaques cards_responsive hover_up">
                         <img src="./Imagens/VirtudesC.png">
                     </div>
-                    <div class="cards_items_destaques hover_up">
+                    <div class="cards_items_destaques cards_responsive hover_up">
                         <img src="./Imagens/Stn.Agostinho.png">
                     </div>
-                    <div class="cards_items_destaques hover_up">
+                    <div class="cards_items_destaques cards_responsive hover_up">
                         <img src="./Imagens/ArtSimb.png">
                     </div>
                 </div>
             </div>
             <div class="swipper_wrapper_leitura">
-                <div class="descripton_text">
+                <div class="descripton_text description_text_responsive">
                     <p>Leitura e Memória</p>
                 </div>
-                <div class="vitrine_leitura vitrine">
-                    <div class="cards_items_leitura hover_up">
+                <div class="vitrine_leitura vitrine vitrine_responsive">
+                    <div class="cards_items_leitura cards_responsive hover_up">
                         <img src="./Imagens/LeituraMem.png">
                     </div>
-                    <div class="cards_items_leitura hover_up">
+                    <div class="cards_items_leitura cards_responsive  hover_up">
                         <img src="./Imagens/Bônus.png">
                     </div>
                 </div>

@@ -23,6 +23,7 @@
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
+    position: relative;
 }
 
 .cards_items{
@@ -39,4 +40,38 @@
     cursor: pointer;
     border-radius: 4px;
     box-shadow: 0 10px 20px rgba(66, 66, 66, 0.19), 0 6px 6px rgba(66, 66, 66, 0.19);
+}
+
+.swipper_back_button, .swipper_next_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background-color:#121212;
+    border-radius: 50%;
+    display: none;
+}
+
+.swipper_back_button{
+    top: 50%;
+    left: 5%;
+}
+
+.swipper_next_button{
+    top: 50%;
+    right: 8%;
+}
+
+.swipper_back_button i, .swipper_next_button i{
+    font-weight: 900;
+    font-family: "Font Awesome 5 free";
+    font-style: normal;
+    color: var(--main-red-color);
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
 }

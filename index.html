@@ -16,7 +16,7 @@
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="./Imagens/FDZ.png" type="image/x-icon">
-    <script src="script.js"></script>
+    <script src="./script/script.js"></script>
 </head>
 
 <body>
@@ -71,10 +71,10 @@
             </picture>
         </div>
         <main>
+            <div class="descripton_text description_text_responsive">
+                <p>Comunidade Projeto do Zero</p>
+            </div>
             <div class="swipper_wrapper">
-                <div class="descripton_text description_text_responsive">
-                    <p>Comunidade Projeto do Zero</p>
-                </div>
                 <div class="vitrine_container vitrine vitrine_responsive">
                     <div class="cards_items cards_responsive hover_up">
                         <img src="/Imagens/StartH.png" alt="Imagem de Começe Por Aqui" id="slide-1">
@@ -96,10 +96,14 @@
                     </div>
                 </div>
                 <div class="swipper_next_button">
-                    <i class="fa-solid fa-angle-right next_icon"></i>
+                    <button id="next_slide" class="slide_button">
+                        <i class="fa-solid fa-angle-right next_icon"></i>
+                    </button>
                 </div>
                 <div class="swipper_back_button">
-                    <i class="fa-solid fa-angle-left back_icon"></i>
+                    <button id="prev-slide" class="slide_button">
+                        <i class="fa-solid fa-angle-left back_icon"></i>
+                    </button>
                 </div>
                 <div class="slider_nav">
                     <a href="slide-1"></a>
@@ -110,10 +114,10 @@
                     <a href="slide-6"></a>
                 </div>
             </div>
+            <div class="descripton_text description_text_responsive">
+                <p>Destaques</p>
+            </div>
             <div class="swipper_wrapper">
-                <div class="descripton_text description_text_responsive">
-                    <p>Destaques</p>
-                </div>
                 <div class="vitrine_container vitrine vitrine_responsive">
                     <div class="cards_items cards_responsive hover_up">
                         <img src="./Imagens/VirtudesC.png" alt="Imagem do Curso sobre Virtudes" id="slide-1">
@@ -131,10 +135,10 @@
                     <a href="slide-3"></a>
                 </div>
             </div>
+            <div class="descripton_text description_text_responsive">
+                <p>Leitura e Memória</p>
+            </div>
             <div class="swipper_wrapper">
-                <div class="descripton_text description_text_responsive">
-                    <p>Leitura e Memória</p>
-                </div>
                 <div class="vitrine_container vitrine vitrine_responsive">
                     <div class="cards_items cards_responsive hover_up">
                         <img src="./Imagens/LeituraMem.png" alt="Imagens do Curso Bônus de Leitura e Memória" id="slide-1">

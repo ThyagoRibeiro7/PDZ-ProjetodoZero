@@ -22,8 +22,12 @@
 .swipper_wrapper{
     margin-left: auto;
     margin-right: auto;
-    overflow: hidden;
+    overflow-x: auto;
     position: relative;
+}
+
+.swipper_wrapper::-webkit-scrollbar{
+    display: none;
 }
 
 .cards_items{
@@ -51,16 +55,28 @@
     height: 55px;
     background-color:#121212;
     border-radius: 50%;
-    display: none;
+    /* display: none; */
+}
+
+.swipper_back_button button{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.swipper_next_button button{
+    background-color: transparent;
+    cursor: pointer;
 }
 
 .swipper_back_button{
     top: 50%;
+    transform: translateY(-50%);
     left: 5%;
 }
 
 .swipper_next_button{
     top: 50%;
+    transform: translateY(-50%);
     right: 8%;
 }
 
@@ -73,5 +89,4 @@
     width: 40px;
     height: 40px;
     text-align: center;
-    border-radius: 50%;
 }

@@ -55,7 +55,7 @@
     height: 55px;
     background-color:#121212;
     border-radius: 50%;
-    /* display: none; */
+    display: none;
 }
 
 .swipper_back_button button{

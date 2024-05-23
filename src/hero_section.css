@@ -1,11 +1,13 @@
 .banner_container{
     max-width: 100%;
+    width: 100%;
     height: auto;
     position: relative;
 }
 
 .banner_container img{
     max-width: 100%;
+    width: 100%;
 }
 
 .banner_container::after{

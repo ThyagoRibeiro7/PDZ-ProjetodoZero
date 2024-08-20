@@ -15,11 +15,15 @@
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="./Imagens/FDZ.png" type="image/x-icon">
-    <script src="./script/script.js"></script>
+    <script defer src="./scripts/header.js"></script>
+    <script defer src="./scripts/carousel.js"></script>
+    <script defer src="./scripts/dropdownMenu.js"></script>
 </head>
 
 <body>
+    <!-- NAV BAR STARTS HERE -->
     <nav class="nav_bar">
+
         <div class="nav_content">
             <div class="nav_icon">
                 <img src="/Imagens/FDZ.png">
@@ -29,18 +33,23 @@
                 <a href="#">TELEGRAM</a>
                 <a href="#">SUPORTE</a>
             </div>
+
             <div class="right_navbar">
                 <div class="right_nav_content">
+
                     <span class="lupa icon">
                         <i class="fa-solid fa-magnifying-glass-minus"></i>
                     </span>
+
                     <span class="bell icon">
                         <i class="fa-regular fa-bell"></i>
                     </span>
+
                     <button class="nav_user">
                         <img src="./Imagens/User.png">
                         <i class="fa-solid fa-angle-down"></i>
                     </button>
+
                     <div class="nav_user_menu">
                         <nav>
                             <ul class="nav_user_menu_active">
@@ -52,114 +61,162 @@
                             </ul>
                         </nav>
                     </div>
+
                     <button class="hamburguer_toggler"><i class="fa-regular fa-bars"></i></button>
+
                 </div>
             </div>
+
         </div>
+
         <div class="hamburguer_menu_active">
             <a href="#">HOME</a>
             <a href="#">TELEGRAM</a>
             <a href="#">SUPORTE</a>
         </div>
+
     </nav>
-    <main>
-        <div class="banner_container">
-            <picture>
-                <source media="(max-width:600px)" srcset="./Imagens/MobileBannerImage.jpeg" />
-                <img src="./Imagens/MainBanner.jpg" alt="Imagem do Banner Principal do Filosofia do Zero">
-            </picture>
-        </div>
-        <main>
-            <div class="descripton_text description_text_responsive">
-                <p>Comunidade Projeto do Zero</p>
-            </div>
-            <div class="swipper_wrapper">
-                <div class="vitrine_container vitrine vitrine_responsive">
-                    <div class="cards_items cards_responsive hover_up">
-                        <img src="/Imagens/StartH.png" alt="Imagem de Começe Por Aqui" id="slide-1">
-                    </div>
-                    <div class="cards_items cards_responsive hover_up">
-                        <img src="/Imagens/Introduction.png" alt="Imagem de Introdução" id="slide-2">
-                    </div>
-                    <div class="cards_items cards_responsive hover_up">
-                        <img src="/Imagens/TimeLine.png" alt="Imagem da TimeLine" id="slide-3">
-                    </div>
-                    <div class="cards_items cards_responsive hover_up">
-                        <img src="/Imagens/DicFil.png" alt="Imagem do Dicicionário Filosófico" id="slide-4">
-                    </div>
-                    <div class="cards_items cards_responsive hover_up">
-                        <img src="/Imagens/Thinkers.png" alt="Imagem dos Pensadores" id="slide-5">
-                    </div>
-                    <div class="cards_items cards_responsive hover_up">
-                        <img src="/Imagens/Comunity.png" alt="Imagem para Entrar na Comunidade do Telegram" id="slide-6">
-                    </div>
-                </div>
-                <div class="swipper_next_button">
-                    <button id="next_slide" class="slide_button">
-                        <i class="fa-solid fa-angle-right next_icon"></i>
-                    </button>
-                </div>
-                <div class="swipper_back_button">
-                    <button id="prev-slide" class="slide_button">
-                        <i class="fa-solid fa-angle-left back_icon"></i>
-                    </button>
-                </div>
-                <div class="slider_nav">
-                    <a href="slide-1"></a>
-                    <a href="slide-2"></a>
-                    <a href="slide-3"></a>
-                    <a href="slide-4"></a>
-                    <a href="slide-5"></a>
-                    <a href="slide-6"></a>
-                </div>
-            </div>
-            <div class="descripton_text description_text_responsive">
-                <p>Destaques</p>
-            </div>
-            <div class="swipper_wrapper">
-                <div class="vitrine_container vitrine vitrine_responsive">
-                    <div class="cards_items cards_responsive hover_up">
-                        <img src="./Imagens/VirtudesC.png" alt="Imagem do Curso sobre Virtudes" id="slide-1">
-                    </div>
-                    <div class="cards_items cards_responsive hover_up">
-                        <img src="./Imagens/Stn.Agostinho.png" alt="Imagem do Curso sobre Santo Agostinho" id="slide-2">
-                    </div>
-                    <div class="cards_items cards_responsive hover_up">
-                        <img src="./Imagens/ArtSimb.png" alt="Imagem do Curso sobre Artes e Simbolismo" id="slide-3">
-                    </div>
-                </div>
-                <div class="slider_nav">
-                    <a href="slide-1"></a>
-                    <a href="slide-2"></a>
-                    <a href="slide-3"></a>
-                </div>
-            </div>
-            <div class="descripton_text description_text_responsive">
-                <p>Leitura e Memória</p>
-            </div>
-            <div class="swipper_wrapper">
-                <div class="vitrine_container vitrine vitrine_responsive">
-                    <div class="cards_items cards_responsive hover_up">
-                        <img src="./Imagens/LeituraMem.png" alt="Imagens do Curso Bônus de Leitura e Memória" id="slide-1">
-                    </div>
-                    <div class="cards_items cards_responsive  hover_up">
-                        <img src="./Imagens/Bônus.png" alt="Imagem do Bônus do Curso Leitura e Memória" id="slide-2">
-                    </div>
-                </div>
-            </div>
-        </main>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"
-        integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-</body>
-<footer>
-    <div class="fcontent">
-        <div class="ftext">
-            <span class="fcopyright">
-                Copyright © 2024 - Comunidade Filosofia do Zero. Todos os direitos reservados.
-            </span>
-        </div>
+    <!-- NAV BAR ENDS HERE -->
+
+    <div class="banner_container">
+        <picture>
+            <source media="(max-width:600px)" srcset="./Imagens/MobileBannerImage.jpeg" />
+            <img src="./Imagens/MainBanner.jpg" alt="Imagem do Banner Principal do Filosofia do Zero">
+        </picture>
     </div>
+
+    <!--MAIN CONTENT STARTS HERE-->
+    <main>
+
+        <div class="descripton_text description_text_responsive">
+            <p>Comunidade Projeto do Zero</p>
+        </div>
+
+        <!-- FLOATING CARDS "COMUNIDADE PROJETO DO ZERO" START-->
+        <div class="swipper_wrapper">
+
+            <div id="vitrineMain" class="vitrine_container vitrine vitrine_responsive">
+
+                <div class="cards_items cards_responsive hover_up">
+                    <img src="/Imagens/StartH.png" alt="Imagem de Começe Por Aqui" id="slide-1">
+                </div>
+                <div class="cards_items cards_responsive hover_up">
+                    <img src="/Imagens/Introduction.png" alt="Imagem de Introdução" id="slide-2">
+                </div>
+                <div class="cards_items cards_responsive hover_up">
+                    <img src="/Imagens/TimeLine.png" alt="Imagem da TimeLine" id="slide-3">
+                </div>
+                <div class="cards_items cards_responsive hover_up">
+                    <img src="/Imagens/DicFil.png" alt="Imagem do Dicicionário Filosófico" id="slide-4">
+                </div>
+                <div class="cards_items cards_responsive hover_up">
+                    <img src="/Imagens/Thinkers.png" alt="Imagem dos Pensadores" id="slide-5">
+                </div>
+                <div class="cards_items cards_responsive hover_up">
+                    <img src="/Imagens/Comunity.png" alt="Imagem para Entrar na Comunidade do Telegram" id="slide-6">
+                </div>
+
+            </div>
+
+            <div id="left" class="swipper_back_button swipperBtnMain">
+                <button class="slide_button">
+                    <i class="fa-solid fa-angle-left back_icon"></i>
+                </button>
+            </div>
+
+            <div id="right" class="swipper_next_button swipperBtnMain">
+                <button class="slide_button">
+                    <i class="fa-solid fa-angle-right next_icon"></i>
+                </button>
+            </div>
+
+            <div class="slider_nav">
+                <a href="slide-1"></a>
+                <a href="slide-2"></a>
+                <a href="slide-3"></a>
+                <a href="slide-4"></a>
+                <a href="slide-5"></a>
+                <a href="slide-6"></a>
+            </div>
+
+        </div>
+        <!-- FLOATING CARDS "COMUNIDADE PROJETO DO ZERO" END-->
+
+
+        <div class="descripton_text description_text_responsive">
+            <p>Destaques</p>
+        </div>
+
+        <!-- FLOATING CARDS "DESTAQUES" START-->
+        <div class="swipper_wrapper">
+
+            <div id="vitrineDestaques" class="vitrine_container vitrine vitrine_responsive">
+                <div class="cards_items cards_responsive hover_up">
+                    <img src="./Imagens/VirtudesC.png" alt="Imagem do Curso sobre Virtudes" id="slide-1">
+                </div>
+                <div class="cards_items cards_responsive hover_up">
+                    <img src="./Imagens/Stn.Agostinho.png" alt="Imagem do Curso sobre Santo Agostinho" id="slide-2">
+                </div>
+                <div class="cards_items cards_responsive hover_up">
+                    <img src="./Imagens/ArtSimb.png" alt="Imagem do Curso sobre Artes e Simbolismo" id="slide-3">
+                </div>
+            </div>
+
+            <div id="left" class="swipper_back_button swipperBtnDestaques">
+                <button class="slide_button">
+                    <i class="fa-solid fa-angle-left back_icon"></i>
+                </button>
+            </div>
+
+            <div id="right" class="swipper_next_button swipperBtnDestaques">
+                <button class="slide_button">
+                    <i class="fa-solid fa-angle-right next_icon"></i>
+                </button>
+            </div>
+
+            <div class="slider_nav">
+                <a href="slide-1"></a>
+                <a href="slide-2"></a>
+                <a href="slide-3"></a>
+            </div>
+
+        </div>
+        <!-- FLOATING CARDS "DESTAQUES" END-->
+
+        <div class="descripton_text description_text_responsive">
+            <p>Leitura e Memória</p>
+        </div>
+
+        <!-- FLOATING CARDS "LEITURA E MEMÓRIA" START-->
+        <div class="swipper_wrapper">
+
+            <div id="vitrineLeitura" class="vitrine_container vitrine vitrine_responsive">
+                <div class="cards_items cards_responsive hover_up">
+                    <img src="./Imagens/LeituraMem.png" alt="Imagens do Curso Bônus de Leitura e Memória" id="slide-1">
+                </div>
+                <div class="cards_items cards_responsive  hover_up">
+                    <img src="./Imagens/Bônus.png" alt="Imagem do Bônus do Curso Leitura e Memória" id="slide-2">
+                </div>
+            </div>
+
+        </div>
+        <!-- FLOATING CARDS "LEITURA E MEMÓRIA" END-->
+
+    </main>
+    <!--MAIN CONTENT ENDS HERE-->
+
+</body>
+
+<!-- FOOTER STARTS HERE-->
+<footer class="fcontent">
+
+    <div class="ftext">
+        <span class="fcopyright">
+            Copyright © 2024 - Comunidade Filosofia do Zero. Todos os direitos reservados.
+        </span>
+    </div>
+
 </footer>
+<!-- FOOTER ENDS HERE-->
 
 </html>

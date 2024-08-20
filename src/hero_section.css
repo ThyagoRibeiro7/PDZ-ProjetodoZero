@@ -22,17 +22,20 @@
 }
 
 .swipper_wrapper{
-    margin-left: auto;
-    margin-right: auto;
-    overflow-x: auto;
+    max-width: 1850px;
+    width: 100%;
     position: relative;
 }
 
-.swipper_wrapper::-webkit-scrollbar{
-    display: none;
+.vitrine_container{
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
 }
 
 .cards_items{
+    scroll-snap-align: end;
     flex-shrink: 0;
     width: 22%;
     max-width: 280px;
@@ -55,17 +58,11 @@
     position: absolute;
     width: 55px;
     height: 55px;
-    background-color:#121212;
+    background-color: #171717;
     border-radius: 50%;
-    display: none;
 }
 
-.swipper_back_button button{
-    background-color: transparent;
-    cursor: pointer;
-}
-
-.swipper_next_button button{
+.swipper_back_button button, .swipper_next_button button{
     background-color: transparent;
     cursor: pointer;
 }
@@ -79,7 +76,7 @@
 .swipper_next_button{
     top: 50%;
     transform: translateY(-50%);
-    right: 8%;
+    right: 5%;
 }
 
 .swipper_back_button i, .swipper_next_button i{
@@ -91,4 +88,16 @@
     width: 40px;
     height: 40px;
     text-align: center;
+}
+
+.swipper_back_button{
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5%;
+}
+
+.swipper_next_button{
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5%;
 }

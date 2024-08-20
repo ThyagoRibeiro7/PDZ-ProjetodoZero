@@ -4,7 +4,7 @@ const firstBtns = document.querySelectorAll('.swipperBtnMain');
 const secondBtns = document.querySelectorAll('.swipperBtnDestaques');
 const firstCardWidth = document.querySelector('.cards_items').offsetWidth;
 
-// ForEach method to add a event for every button on the 'firstWrapper' container.
+// ForEach method to add a event for every button on the 'firstWrapper' container
 function carousel () {
     // ForEach method to add a event for every button on the 'secondWrapper' container.
     firstBtns.forEach(btn => {

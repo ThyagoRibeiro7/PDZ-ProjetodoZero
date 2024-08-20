@@ -1,7 +1,7 @@
 const navUserBtn = document.querySelector('.nav_user');
 const navUserMenu = document.querySelector('.nav_user_menu');
-const hamburguerToggler = document.querySelector('.hamburguer_toggler');
-const hamburguerMenu = document.querySelector('.hamburguer_menu_active');
+const burguerMenuToggler = document.querySelector('.hamburguer_toggler');
+const buguerMenu = document.querySelector('.hamburguer_menu_active');
 
 function dropDownMenu() {
     navUserBtn.addEventListener('click', () => {
@@ -10,8 +10,8 @@ function dropDownMenu() {
 };
 
 function toggleBurguerMenu (){
-    hamburguerToggler.addEventListener('click', () => {
-        hamburguerMenu.classList.toggle('showMenu');
+    burguerMenuToggler.addEventListener('click', () => {
+        buguerMenu.classList.toggle('showMenu');
     });
 };
 

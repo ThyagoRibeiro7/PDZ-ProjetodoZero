@@ -1,4 +1,6 @@
-@media (max-width: 991.98px){
+
+
+@media (max-width: 992px){
     .nav_links{
         display: none;
     }
@@ -39,7 +41,7 @@
     }
 }
 
-@media (max-width: 767.98px){
+@media (max-width: 768px){
     .vitrine_responsive{
         padding: 20px 48px 0 15px;
     }
@@ -47,11 +49,27 @@
     .description_text_responsive{
         padding-left: 15px;
     }
+
+    .hamburguer_menu_active{
+        flex-direction: column;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
 }
 
 @media (max-width: 600px){
     .cards_responsive{
         width: 50%;
+    }
+
+    .swipperBtnDestaques{
+        display: flex;
+    }
+}
+
+@media (min-width: 605px){
+    .swipperBtnDestaques{
+        display: none;
     }
 }
 
@@ -64,5 +82,17 @@
 @media (max-width: 390px){
     .nav_user_menu{
         right: 65px;
+    }
+}
+
+@media (min-width: 390px){
+    .swipperBtnMain{
+        display: flex;
+    }
+}
+
+@media (min-width: 1800px){
+    .swipperBtnMain{
+        display: none;
     }
 }

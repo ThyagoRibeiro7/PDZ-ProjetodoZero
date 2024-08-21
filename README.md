@@ -1,5 +1,5 @@
 # 🍷 PDZ | Projeto do Zero 
-Este projeto, é um clone da <i>Landing Page</i> do curso de filosofia "Filosofia do Zero", no qual estudantes se reúnem em forma de comunidade a fim de meditar e estudar filosofia, com o objetivo em desenvolver uma vida de virtudes e intelectual, segundo as ideias dos grandes homens na história 🧠.
+Este projeto, é um clone da <i>Landing Page</i> do curso de filosofia "Filosofia do Zero", no qual estudantes se reúnem em forma de comunidade a fim de meditar e estudar filosofia, com o objetivo em desenvolver uma vida de virtudes e intelectual, segundo as ideias dos grandes homens na história. 🧠
 
 <strong>Site Oficial do Filosofia do Zero.</strong>
 
@@ -8,15 +8,13 @@ Este projeto, é um clone da <i>Landing Page</i> do curso de filosofia "Filosofi
 <div>
 
 ## 🛠 Tecnologias Utilizadas
-<div>
-    [![My Skills](https://skillicons.dev/icons?i=html,css,js)](https://skillicons.dev)
-</div>
+
 
 ## 👨‍💻 Qual é o objetivo?
-Desafiar minhas habilides em desenvolvimento de códigos semânticos e lógicos. 🚀
+Desafiar minhas habilides em <strong>desenvolvimento de códigos semânticos e manipulação de DOM.</strong>.
 </div>
 
-## Quais foram as motivações?
+## ❓ Quais foram as motivações?
 <div>
 <ul> 
     <li>Estrutura simples e design moderno.</li>

@@ -5,11 +5,14 @@ Este projeto, é um clone da <i>Landing Page</i> do curso de filosofia "Filosofi
 
 <img  src="./Imagens/FDZ.gif" alt="GifFDZ" height="200">
 
-<div>
-
 ## 🛠 Tecnologias Utilizadas
+<div align="center">
+<img align='center' height='60' width='85' title='HTML' alt='html' src='https://github.com/ThyagoRibeiro7/PDZ-ProjetodoZero/issues/1#issue-2476790371'/> &nbsp;
+<img align='center' height='60' width='85' title='CSS' alt='css' src='https://github.com/ThyagoRibeiro7/PDZ-ProjetodoZero/issues/2#issue-2476790558'/> &nbsp;
+<img align='center' height='60' width='85' title='JavaScript' alt='javascript' src='https://github.com/ThyagoRibeiro7/PDZ-ProjetodoZero/issues/3#issue-2476790681'/>
+</div>
 
-
+<div>
 ## 👨‍💻 Qual é o objetivo?
 Desafiar minhas habilides em <strong>desenvolvimento de códigos semânticos e manipulação de DOM.</strong>.
 </div>

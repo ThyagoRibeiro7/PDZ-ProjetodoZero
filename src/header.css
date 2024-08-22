@@ -41,7 +41,7 @@
     transition: color 0.2s;
 }
 
-.nav_bar .nav_links li a:hover{ color: var(--main-red-color); }
+.nav_bar .nav_links li a:hover{ color: rgb(255, 0, 0) }
 
 .right_navbar .right_nav_content{
     display: flex;

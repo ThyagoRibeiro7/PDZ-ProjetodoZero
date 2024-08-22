@@ -3,7 +3,7 @@
     --mainbg-color: #121212;
     --soft-gray: #484848;
     --main-red-color: #8a1a12;
-    --main-font-color: #bababa;  
+    --main-font-color: #fff;  
     --description-text-color: #fff;
 }
 /* Variables */
@@ -59,13 +59,12 @@ body{
 }
 
 .icon{
-    display: block;
-    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
     font-family: "Font Awesome 5 free";
     color: #868686;
-    line-height: 40px;
     width: 40px;
-    height: 40px;
     text-align: center;
     border-radius: 50%;
     transition: all 0.2s;
@@ -83,7 +82,11 @@ body{
     transform: translateY(-10px);
 }
 
-.nav_user_menu.showMenu{
+.showBlockMenu{
     display: block;
+}
+
+.showFlexMenu{
+    display: flex;
 }
 /* Utility Classes */

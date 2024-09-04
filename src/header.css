@@ -37,7 +37,7 @@
                  display: inline-block; 
             }
 
-                .nav_bar .nav_links li a{
+.nav_bar .nav_links li a{
                 padding: 0.5rem 1rem;
                 line-height: 40px;
                 text-transform: uppercase;

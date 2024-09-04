@@ -12,11 +12,11 @@
     transition: all 0.3s;
 }
 
-    .nav_bar img{
-        display: block;
-        min-height: 30px;
-        max-height: 30px;
-    }
+.nav_bar img{
+    display: block;
+    min-height: 30px;
+    max-height: 30px;
+}
 
 .nav_bar .nav_content{
             display:flex;
@@ -29,7 +29,9 @@
     padding-right: 4em; 
 }
 
-.nav_content .nav_links{ margin-right: auto; }
+.nav_content .nav_links{ 
+    margin-right: auto; 
+}
 
             .nav_content .nav_links li{
                  display: inline-block; 
@@ -57,6 +59,24 @@
     width: 100%;
 }
 
+.right_navbar .right_nav_content .bell{
+    position: relative;
+}
+
+.right_navbar .notif-container{
+    position: absolute;
+    right: 9rem;
+    top: 70px;
+    width: 400px;
+    padding: 15px 1rem;
+    box-shadow: 0px 0px 3px #202021;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    color: #767676;
+    text-align: center;
+    display: none;
+}
+
 .right_navbar .nav_user{
     display: inline-flex;
     align-items: center;
@@ -74,38 +94,38 @@
     color: #868686; 
 }
 
-    .nav_user_menu{
-        display: none;
-        position: absolute;
-        top: 80%;
-        min-width: 10rem;    
-        z-index: 1000;
-        padding: .5rem 0;
-        left: auto;
-        margin: .125rem 0 0;
-        font-size: 1rem;
-        color: #212529;
-        background-color: #1e1e1e;
-        text-align: left;  
-        border-radius: 10px;
-    }
+.nav_user_menu{
+    display: none;
+    position: absolute;
+    top: 80%;
+    min-width: 10rem;    
+    z-index: 1000;
+    padding: .5rem 0;
+    left: auto;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    background-color: #1e1e1e;
+    text-align: left;  
+    border-radius: 10px;
+}
             
-    .nav_user > i{
-        font-style: normal;
-        font-weight: 900;
-        color: #c3c3c3;
-        margin-left: 0.5rem;
-        margin-right: 0 !important;
-        font-family: "Font Awesome 5 free";
-    }
+.nav_user > i{
+    font-style: normal;
+    font-weight: 900;
+    color: #c3c3c3;
+    margin-left: 0.5rem;
+    margin-right: 0 !important;
+    font-family: "Font Awesome 5 free";
+}
 
-    .nav_user img{
+.nav_user img{
         max-height: 100%;
         width: 40px;
         height: 40px;
         border-radius: 50%;
         background-color: #484c4e;
-    }
+}
 
 .nav_user_menu .nav_user_menu_active li{
     color: #c3c3c3;

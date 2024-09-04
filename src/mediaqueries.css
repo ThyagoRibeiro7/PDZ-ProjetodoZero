@@ -1,22 +1,14 @@
-
-
 @media (max-width: 992px){
-    .nav_links{
-        display: none;
-    }
+    .nav_links{ display: none; }
 
-    .nav_content{
-        justify-content: space-between;
-    }
+    .nav_content{ justify-content: space-between; }
 
     .hamburguer_toggler{
         display: flex;
         padding: 0.25rem 0.75rem
     }
 
-    .nav_user_menu{
-        right: 85px;
-    }
+    .nav_user_menu{ right: 85px; }
 
     .cards_responsive{
         padding-left: 5px;
@@ -25,13 +17,9 @@
 }
 
 @media (max-width: 777px){
-    .vitrine_responsive{
-        padding: 20px 48px 0 15px;
-    }
+    .vitrine_responsive{ padding: 20px 48px 0 15px; }
 
-    .description_text_responsive{
-        padding-left: 15px;
-    }
+    .description_text_responsive{ padding-left: 15px; }
 
     .cards_responsive{
         padding-left: 5px;
@@ -42,13 +30,9 @@
 }
 
 @media (max-width: 768px){
-    .vitrine_responsive{
-        padding: 20px 48px 0 15px;
-    }
+    .vitrine_responsive{ padding: 20px 48px 0 15px; }
 
-    .description_text_responsive{
-        padding-left: 15px;
-    }
+    .description_text_responsive{ padding-left: 15px; }
 
     .hamburguer_menu_active{
         flex-direction: column;
@@ -59,41 +43,27 @@
 }
 
 @media (max-width: 600px){
-    .cards_responsive{
-        width: 50%;
-    }
+    .cards_responsive{ width: 50%; }
 
-    .swipperBtnDestaques{
-        display: flex;
-    }
+    .swipperBtnDestaques{ display: flex; }
 }
 
 @media (min-width: 605px){
-    .swipperBtnDestaques{
-        display: none;
-    }
+    .swipperBtnDestaques{ display: none; }
 }
 
 @media (max-width: 447px){
-    .nav_icon{
-        padding-right: 1em;
-    }
+    .nav_icon{ padding-right: 1em; }
 }
 
 @media (max-width: 390px){
-    .nav_user_menu{
-        right: 65px;
-    }
+    .nav_user_menu{ right: 65px; }
 }
 
 @media (min-width: 390px){
-    .swipperBtnMain{
-        display: flex;
-    }
+    .swipperBtnMain{ display: flex; }
 }
 
 @media (min-width: 1800px){
-    .swipperBtnMain{
-        display: none;
-    }
+    .swipperBtnMain{ display: none; }
 }

@@ -82,7 +82,11 @@ body{
     transform: translateY(-10px);
 }
 
-.showBlockMenu{
+.showBlockMenu {
+    display: block;
+}
+
+.notif-container.showBlockMenu{
     display: block;
 }
 

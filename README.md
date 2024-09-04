@@ -15,7 +15,7 @@ Este projeto, é um clone da <i>Landing Page</i> do curso de filosofia "Filosofi
 <div>
 
 ## 👨‍💻 Qual é o objetivo?
-Desafiar minhas habilides em <strong>desenvolvimento de códigos semânticos e manipulação de DOM.</strong>.
+Desafiar minhas habilides em <strong>desenvolvimento de códigos semânticos e manipulação de DOM.</strong>
 </div>
 
 ## ❓ Quais foram as motivações?

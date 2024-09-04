@@ -30,6 +30,17 @@ function showSearchModal () {
     });
 };
 
+let notifMenu = () => {
+    const notifContainer = document.querySelector('.notif-container');
+    const bellIcon = document.querySelector('.bell');
+
+    bellIcon.addEventListener('click', () => {
+        notifContainer.classList.toggle('showBlockMenu');
+    });
+
+};
+
 dropDownMenu();
 toggleBurguerMenu();
 showSearchModal();
+notifMenu();

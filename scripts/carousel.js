@@ -8,13 +8,17 @@ function carousel() {
     mainBtns.forEach(btn => {
 
         btn.addEventListener('click', () => {
-            firstWrapper.scrollLeft += btn.id === "left" ? -firstCardWidth : firstCardWidth;    
+            firstWrapper.scrollLeft += btn.id === "left" ? -firstCardWidth : firstCardWidth;
+            showAndHideMainBtns();
         });
 
         destaquesBtns.forEach(btn => {
             btn.addEventListener('click', () => {
                 secondWrapper.scrollLeft += btn.id === "left" ? -firstCardWidth : firstCardWidth;
+                showAndHideDestaquesBtns();
             });
         });
     });
 };
+
+carousel();

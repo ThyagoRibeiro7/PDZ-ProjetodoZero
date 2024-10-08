@@ -7,9 +7,9 @@ Este projeto, é um clone da <i>Landing Page</i> do curso de filosofia "Filosofi
 
 ## 🛠 Tecnologias Utilizadas
 <div align="center">
-<img align='center' height='60' width='85' title='HTML' alt='html' src='https://github.com/ThyagoRibeiro7/PDZ-ProjetodoZero/issues/1#issue-2476790371'/>
-<img align='center' height='60' width='85' title='CSS' alt='css' src='https://github.com/ThyagoRibeiro7/PDZ-ProjetodoZero/issues/2#issue-2476790558'/>
-<img align='center' height='60' width='85' title='JavaScript' alt='javascript' src='https://github.com/ThyagoRibeiro7/PDZ-ProjetodoZero/issues/3#issue-2476790681'/>
+<img align='center' height='60' width='85' title='HTML' alt='html' src='https://github.com/devicons/devicon/blob/master/icons/html5/html5-original-wordmark.svg'/>
+<img align='center' height='60' width='85' title='CSS' alt='css' src='https://github.com/devicons/devicon/blob/master/icons/css3/css3-original-wordmark.svg'/>
+<img align='center' height='60' width='85' title='JavaScript' alt='javascript' src='https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg'/>
 </div>
 
 <div>
